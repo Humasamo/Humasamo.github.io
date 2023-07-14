@@ -1,0 +1,27 @@
+
+  {
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:Humasamo.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:Humasamo.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:Humasamo.github.io",
+        "publicKeyJwk": {
+          "kty":"EC",
+          "crv":"secp256k1",
+          "x":"v0qqJqxvHJliefg05Gt2wbPbWk3TTX3nMeOOl0za8KU=",
+          "y":"qzsAks3kwPuJixGnK9ZYnqMh+EEJqh49WsiohmonehU="
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:Humasamo.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:Humasamo.github.io#owner"
+    ]
+  }
